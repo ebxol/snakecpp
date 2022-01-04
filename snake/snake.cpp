@@ -303,7 +303,7 @@ void Snake::MoveToward(HDC hdc, HWND hWnd, POINT dest)
 
 		if (dest.x < rect.right || dest.x > rect.left)
 		{
-
+		//do something here if you want
 		}
 
 	}
@@ -315,7 +315,7 @@ void Snake::MoveToward(HDC hdc, HWND hWnd, POINT dest)
 
 		if (dest.y < rect.bottom || dest.y > rect.top)
 		{
-			
+		//do something here if you want
 		}
 	}
 
